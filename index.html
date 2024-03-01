@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Art</title>
+    <title>Pantheon</title>
     <link rel="icon" type="image/x-icon" href="#">
 </head>
 <body>
-    <h1>Art</h1>
-    <p>Bekijke kunst</p>
-    <p>Blank</p>
-    <p>Canvas</p>
-    <p>Pantheon</p>
+    <form id="loginForm" action="process_login.php" method="post">
+        <h2>Login</h2>
+        <label for="username">Gebruikersnaam:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Wachtwoord:</label>
+        <input type="password" id="password" name="password" required>
+        <input type="submit" value="Login">
+    </form>
 
 
 
